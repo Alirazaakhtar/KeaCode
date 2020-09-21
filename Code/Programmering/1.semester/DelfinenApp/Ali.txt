@@ -1,0 +1,9 @@
+
+Name: Ali
+Age: 12
+Adress: rwerewer
+Phone: 423423423
+Email: werwer
+Contingent: 1000 DKK
+
+

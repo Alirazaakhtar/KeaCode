@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Qazaa App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+<header>
+    <div class="container">
+        <h1>Qazaa</h1>
+    </div>
+
+</header>
+
+<main>
+
+    <div class="container">
+
+        <form action="/updated" method="post">
+
+
+
+            <div class="form-group">
+
+                <input type="hidden" name="prayer_id" class="form-control" th:value="${prayer_id}" required>
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="fajr">Fajr</label>
+                <input type="number" name="fajr" id="fajr" class="form-control" th:value="${fajr}" required>
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="zuhr">Zuhr</label>
+                <input type="number" name="zuhr" id="zuhr" class="form-control" th:value="${zuhr}" required>
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="ashr">Ashr</label>
+                <input type="number" name="ashr" id="ashr" class="form-control" th:value="${ashr}" required>
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="maghrib">Maghrib</label>
+                <input type="number" name="maghrib" id="maghrib" class="form-control" th:value="${maghrib}" required>
+            </div>
+
+            <br/>
+            <div class="form-group">
+                <label for="isha">Isha</label>
+                <input type="number" name="isha" id="isha" class="form-control" th:value="${isha}" required>
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time" class="form-control">
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" class="form-control">
+            </div>
+
+            <br/>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger">Save</button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <hr/>
+        <p>ARA 2020 ®</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+package com.example.springdemo.repository;
+
+import com.example.springdemo.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository extends JpaRepository<Product, Integer> {
+    public Product findByName(String name);
+}

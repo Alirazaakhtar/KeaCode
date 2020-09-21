@@ -1,0 +1,31 @@
+@keyframes change-color{
+    0% {background-color: red;}
+    20% {background-color: lightblue}
+    20%{background-color: yellow}
+}
+#Alis-h1{
+    color:navy;
+    background-color: brown;
+    border-radius: 10pc;
+}
+
+.fancy-border{
+    border: 4px dashed black;
+}
+
+.blue-text{
+    color: navy;
+    font-weight: bold;
+}
+
+
+.box-animation{
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+h1:hover{
+    background-color: yellow;
+    cursor: pointer;
+}

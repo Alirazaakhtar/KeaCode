@@ -1,0 +1,14 @@
+
+:root{
+    --primary-color: #2b3d4f;
+}
+
+.bg{
+    background-color: var(--primary-color);
+    font-weight: bold;
+    color: white;
+}
+
+.centerText{
+    text-align: center;
+}

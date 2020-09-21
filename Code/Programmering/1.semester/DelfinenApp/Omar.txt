@@ -1,0 +1,9 @@
+
+Name: Omar
+Age: 122
+Adress: rwerwe
+Phone: 2423423
+Email: fwerwe
+Contingent: 1200 DKK
+
+

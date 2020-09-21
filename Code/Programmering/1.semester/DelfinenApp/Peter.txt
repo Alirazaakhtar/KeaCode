@@ -1,0 +1,9 @@
+
+Name: Peter
+Age: 12
+Adress: Ågr
+Phone: 32423423
+Email: ægergre
+Contingent: 500 DKK
+
+
