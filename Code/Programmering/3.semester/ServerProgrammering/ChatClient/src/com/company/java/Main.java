@@ -14,13 +14,17 @@ public class Main {
             System.out.println("Client connected");
 
             PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
-
             Scanner scanner = new Scanner(socket.getInputStream());
 
-            while (true){
-               pw.println(keyborad());
 
-                System.out.println("from server:");
+            KeyboardListener kl = new KeyboardListener(pw);
+            Thread thread = new Thread(kl);
+            thread.start();
+
+            while (true){
+               //pw.println(keyborad());
+
+                System.out.print("from server: ");
                 System.out.println(scanner.nextLine());
 
 
