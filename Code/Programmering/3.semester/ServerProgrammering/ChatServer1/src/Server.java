@@ -1,13 +1,16 @@
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class Server {
 
 
     private Set<Socket> socketSet = new HashSet<>();
+    private Map<Socket, String> socketNameMap = new HashMap<>();
     public static void main(String[] args) {
         new Server();
     }
@@ -22,6 +25,8 @@ public class Server {
                 // tilføj den nye socket til Set
                 socketSet.add(socket);
 
+
+
                 ClientHandler clientHandler = new ClientHandler(this, socket); // "this" refererer til klassen
                 Thread t1 = new Thread(clientHandler);
                 t1.start();
@@ -35,5 +40,9 @@ public class Server {
 
     public Set<Socket> getSocketSet() {
         return socketSet;
+    }
+
+    public Map<Socket, String> getSocketNameMap() {
+        return socketNameMap;
     }
 }

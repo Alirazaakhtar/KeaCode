@@ -2,33 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45acb0df-9fc4-430e-a528-3a0f71a8e91d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ChatClient/src/com/company/java/KeyboardListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/src/KeyboardInputThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer/src/com/company/java/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer/src/com/company/java/KeyboardListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/src/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/src/KeyboardExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OneToOneChat/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatClient/src/com/company/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/com/company/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatServer/src/com/company/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer/src/com/company/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient1/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatServer1/src/PrivatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/src/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multichat/src/DataServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/afterposter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/call-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/kino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/tent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/underwater.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient1/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient1/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient1/src/KeyboardInputThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient1/src/KeyboardInputThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatServer1/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer1/src/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatServer1/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer1/src/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="ProjectId" id="1hoJ0ZPPrsQftVJcWZrufXoIN06" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -94,7 +89,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600671288971</updated>
       <workItem from="1600671293523" duration="9123000" />
-      <workItem from="1600722652557" duration="4428000" />
+      <workItem from="1600722652557" duration="8852000" />
+      <workItem from="1601240632629" duration="1000000" />
+      <workItem from="1601277068637" duration="1210000" />
+      <workItem from="1601285908960" duration="605000" />
     </task>
     <servers />
   </component>
@@ -106,26 +104,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1258" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1600679611282" />
-    <state width="1878" height="350" key="GridCell.Tab.0.bottom" timestamp="1600802246639">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="350" key="GridCell.Tab.0.bottom" timestamp="1600869329572">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600685304626" />
     <state width="1878" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600802246639" />
-    <state width="1878" height="350" key="GridCell.Tab.0.center" timestamp="1600802246637">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="350" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1600869329572" />
+    <state width="1398" height="350" key="GridCell.Tab.0.center" timestamp="1600869329569">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600685304624" />
     <state width="1878" height="350" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600802246637" />
-    <state width="1878" height="350" key="GridCell.Tab.0.left" timestamp="1600802246636">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="350" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1600869329569" />
+    <state width="1398" height="350" key="GridCell.Tab.0.left" timestamp="1600869329568">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600685304623" />
     <state width="1878" height="350" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600802246636" />
-    <state width="1878" height="350" key="GridCell.Tab.0.right" timestamp="1600802246638">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="350" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1600869329568" />
+    <state width="1398" height="350" key="GridCell.Tab.0.right" timestamp="1600869329570">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600685304625" />
     <state width="1878" height="350" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600802246638" />
+    <state width="1398" height="350" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1600869329570" />
+    <state x="149" y="154" key="new project wizard" timestamp="1600972147101">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="149" y="154" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1600972147101" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

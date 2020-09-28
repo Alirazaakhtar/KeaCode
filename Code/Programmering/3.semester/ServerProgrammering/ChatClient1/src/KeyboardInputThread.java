@@ -16,17 +16,13 @@ public class KeyboardInputThread implements Runnable {
     @Override
     public void run() {
 
+        System.out.print("Type your name to start: ");
 
         while (true){
 
             String chat = keyboardInput();
+                printWriter.println(chat);
 
-                //System.out.print("Mig: ");
-            printWriter.println(chat);
-
-            if(chat.equalsIgnoreCase("quit")){
-                break;
-            }
 
 
         }
@@ -38,6 +34,8 @@ public class KeyboardInputThread implements Runnable {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
+
+
 
 
 }
