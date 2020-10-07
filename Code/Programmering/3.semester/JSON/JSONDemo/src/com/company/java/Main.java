@@ -10,33 +10,51 @@ import java.io.PrintWriter;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        JSONObject jsObject = new JSONObject();
 
-        jsObject.put("navn", "Ole");
-        jsObject.put("adresse", "Lygten 23");
+        JSONObject object = new JSONObject();
 
+        object.put("Navn", "Ali Raza");
+        object.put("Udd", "KEA");
 
         JSONArray array = new JSONArray();
-        array.add("Ole@hotmail.com");
-        array.add("Boo@live.dk");
-        jsObject.put("Emails", array);
+        array.add("Hello");
+        array.add("World");
+        object.put("say Hello", array);
 
-        JSONObject ven = new JSONObject();
-        ven.put("navn", "Peter");
-        ven.put("adresse", "Lygten 200");
+        JSONObject venObj = new JSONObject();
+        venObj.put("Navn", "Jacob");
+        venObj.put("år", 22 );
 
-        jsObject.put("ven", ven);
+        object.put("Ven", venObj);
 
 
-
-        System.out.println(jsObject.toJSONString());
+        // write your code here
+//        JSONObject jsObject = new JSONObject();
+//
+//        jsObject.put("navn", "Ole");
+//        jsObject.put("adresse", "Lygten 23");
+//
+//
+//        JSONArray array = new JSONArray();
+//        array.add("Ole@hotmail.com");
+//        array.add("Boo@live.dk");
+//        jsObject.put("Emails", array);
+//
+//        JSONObject ven = new JSONObject();
+//        ven.put("navn", "Peter");
+//        ven.put("adresse", "Lygten 200");
+//
+//        jsObject.put("ven", ven);
+//
+//
+//
+//        System.out.println(jsObject.toJSONString());
 
 
         try {
-            PrintWriter printWriter = new PrintWriter("users.json");
-            printWriter.println(jsObject);
-            printWriter.close();
+         PrintWriter printWriter = new PrintWriter("users.json");
+         printWriter.println(object);
+         printWriter.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

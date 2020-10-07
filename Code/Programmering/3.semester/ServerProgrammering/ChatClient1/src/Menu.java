@@ -36,7 +36,7 @@ public class Menu {
 
                         PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
 
-                        KeyboardInputThread kit = new KeyboardInputThread(pw, scanner);
+                        InputHandler kit = new InputHandler(pw, scanner);
                         Thread t1 = new Thread(kit);
                         t1.start();
 

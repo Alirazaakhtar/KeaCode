@@ -18,6 +18,8 @@ public class JSONReader {
            // System.out.println(jsonObject.keySet());
             String navn = (String) jsonObject.get("navn");
             System.out.println(navn);
+            System.out.println(jsonObject);
+
 
             JSONArray emails = (JSONArray)jsonObject.get("email");
         emails.stream().forEach(System.out::println);

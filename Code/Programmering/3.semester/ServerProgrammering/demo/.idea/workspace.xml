@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45acb0df-9fc4-430e-a528-3a0f71a8e91d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ChatClient1/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatServer1/src/PrivatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/src/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Multichat/src/DataServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/afterposter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/call-poster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/kino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/tent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../XP_Project/src/main/resources/static/underwater.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatClient1/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient1/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatClient1/src/KeyboardInputThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient1/src/KeyboardInputThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatServer1/src/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer1/src/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatServer1/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatServer1/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSON/JSONDemo/src/com/company/java/JSONReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSON/JSONDemo/src/com/company/java/JSONReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +75,7 @@
       <workItem from="1601240632629" duration="1000000" />
       <workItem from="1601277068637" duration="1210000" />
       <workItem from="1601285908960" duration="605000" />
+      <workItem from="1601291607690" duration="506000" />
     </task>
     <servers />
   </component>
@@ -128,6 +111,10 @@
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600685304625" />
     <state width="1878" height="350" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600802246638" />
     <state width="1398" height="350" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1600869329570" />
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1601292276298">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1601292276298" />
     <state x="149" y="154" key="new project wizard" timestamp="1600972147101">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
