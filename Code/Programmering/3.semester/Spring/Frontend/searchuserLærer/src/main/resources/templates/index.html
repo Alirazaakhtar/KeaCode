@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script type="text/javascript" th:src="@{/js/functions.js}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<a href="/"><h2>Search User</h2></a>
+<form id="searchform">
+    <input type="text" id="username" value="Anna">
+    <input type="submit" value="Search">
+</form>
+<div id="status">
+</div>
+<div id="userlist">
+</div>
+
+
+
+
+
+<div id="nyheder"></div>
+
+<form id="nyhederform">
+
+    <input type="submit" value="hent nyheder">
+
+</form>
+
+
+<form id="createform">
+
+    <input type="text" id="nyhed">
+    <input type="submit" value="Opret Nyhed">
+
+</form>
+
+<div id="statusOpretnyhed"></div>
+
+<script type="text/javascript">
+    checkjQuery();
+    preventFormFromSending($("#searchform"));// find form via jQuery og kald på metoden
+    preventNyhedsFormFromSending($("#nyhederform"));
+    preventCreateNyhedFormFromSending($("#createform"));
+
+    // $( "#statusOpretnyhed" ).load( "index.html", function() {
+    //     alert( "Load was performed." );
+    // });
+
+    setInterval(hentNyheder, 2000)
+</script>
+</body>
+</html>

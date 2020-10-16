@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+    <script type="text/javascript" th:src="@{js/function.js}"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<a href="/">Search user</a>
+
+<form id="searchForm">
+
+    <input type="text" id="username" value="Ali">
+    <input type="submit" id="submit" value="Search">
+
+</form>
+
+
+<div id="total"></div>
+<div id="list"></div>
+
+
+<form id="add">
+    <input type="text" id="newUsername">
+    <input type="submit" value="Add">
+</form>
+
+<div id="added"></div>
+
+
+
+
+
+<script type="text/javascript">
+
+    greeting();
+
+    check();
+
+    preventDefault($("#searchForm"));
+
+    prevent($("#add"));
+
+
+
+
+</script>
+
+</body>
+</html>
