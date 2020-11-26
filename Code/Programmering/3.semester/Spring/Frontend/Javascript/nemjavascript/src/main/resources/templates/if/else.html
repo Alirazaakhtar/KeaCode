@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IF</title>
+</head>
+<body>
+
+<label for="x">X: </label>
+<input type="text" id="x" required>
+<label for="y">Y :</label>
+<input type="text" id="y" required>
+<button onclick="biggest(document.getElementById('x').value, document.getElementById('y').value)">Find out</button>
+
+
+<script>
+
+
+
+
+    function biggest(x, y) {
+
+        if (x > y) {
+            alert("X er størst");
+        }else if(x==y){
+            alert("Ingen af dem er størst");
+        }
+        else {
+            alert("Y er størst");
+        }
+    }
+
+</script>
+
+</body>
+</html>

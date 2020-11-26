@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d698fad-fde9-4672-89f9-dedbd2095cc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../2.semester/Konstruktion/AllSpring/HelloWorldSpring/src/main/resources/templates/Actors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2.semester/Konstruktion/AllSpring/HelloWorldSpring/src/main/resources/templates/Actors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2.semester/Konstruktion/AllSpring/HelloWorldSpring/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2.semester/Konstruktion/AllSpring/HelloWorldSpring/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2.semester/Teknologi/demoAplication/src/main/java/com/example/demo/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2.semester/Teknologi/demoAplication/src/main/java/com/example/demo/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2.semester/Teknologi/demoAplication/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2.semester/Teknologi/demoAplication/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/nemjavascript/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/nemjavascript/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/Hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/com/example/ajaxjquery/AjaxJqueryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/com/example/ajaxjquery/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/com/example/ajaxjquery/NewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/com/example/ajaxjquery/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/java/com/example/ajaxjquery/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/resources/static/js/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax-jquery/src/test/java/com/example/ajaxjquery/AjaxJqueryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/AJAXrequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/SeachuserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/java/com/example/seachuser/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/resources/static/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seachuser/src/test/java/com/example/seachuser/SeachuserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/AJAXrequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/AjaxNyhed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/NyhedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/NyhedResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/SearchuserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/model/Nyhed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/service/Nyheder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/java/com/joneikholm/searchuser/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/resources/static/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searchuserLærer/src/test/java/com/joneikholm/searchuser/SearchuserApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j4NAKBcYWm8ItJdIGnAiZLtn9i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ObligatoriskopgaveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="obligatoriskopgave" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.obligatorisk.obligatoriskopgave.ObligatoriskopgaveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d698fad-fde9-4672-89f9-dedbd2095cc2" name="Default Changelist" comment="" />
+      <created>1603059258588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603059258588</updated>
+      <workItem from="1603059263196" duration="3924000" />
+      <workItem from="1603092798222" duration="14493000" />
+      <workItem from="1603658525979" duration="388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="205" key="#Project_Structure" timestamp="1603059333185">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="205" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1603059333185" />
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1603144209439">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603144209439" />
+    <state x="589" y="236" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603059306664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="589" y="236" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603059306652" />
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom" timestamp="1603283910431">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603283910431" />
+    <state width="1041" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624511" />
+    <state width="1398" height="376" key="GridCell.Tab.0.center" timestamp="1603283910428">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603283910428" />
+    <state width="1041" height="376" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624505" />
+    <state width="1398" height="376" key="GridCell.Tab.0.left" timestamp="1603283910426">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603283910426" />
+    <state width="1041" height="376" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624500" />
+    <state width="1398" height="376" key="GridCell.Tab.0.right" timestamp="1603283910430">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603283910430" />
+    <state width="1041" height="376" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624509" />
+    <state width="784" height="376" key="GridCell.Tab.1.bottom" timestamp="1603205232220">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="784" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603205232220" />
+    <state width="1041" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624524" />
+    <state width="784" height="376" key="GridCell.Tab.1.center" timestamp="1603205232187">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="784" height="376" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603205232187" />
+    <state width="1041" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624520" />
+    <state width="784" height="376" key="GridCell.Tab.1.left" timestamp="1603205232182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="784" height="376" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603205232182" />
+    <state width="1041" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624514" />
+    <state width="784" height="376" key="GridCell.Tab.1.right" timestamp="1603205232215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="784" height="376" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603205232215" />
+    <state width="1041" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603191624522" />
+    <state width="912" height="375" key="GridCell.Tab.2.bottom" timestamp="1603148723739">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="912" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603148723739" />
+    <state width="912" height="375" key="GridCell.Tab.2.center" timestamp="1603148723735">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="912" height="375" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603148723735" />
+    <state width="912" height="375" key="GridCell.Tab.2.left" timestamp="1603148723733">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="912" height="375" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603148723733" />
+    <state width="912" height="375" key="GridCell.Tab.2.right" timestamp="1603148723737">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="912" height="375" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603148723737" />
+    <state x="749" y="244" key="new project wizard" timestamp="1603090894729">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="749" y="244" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1603090894728" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1603282667345">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603282667345" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603142484737" />
+  </component>
+</project>

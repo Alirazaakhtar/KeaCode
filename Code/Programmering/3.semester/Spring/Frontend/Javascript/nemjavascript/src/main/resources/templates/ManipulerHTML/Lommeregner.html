@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lommeregner</title>
+
+
+    <script>
+
+
+        function operation(operator) {
+            var x = parseInt(document.getElementById('txt1').value);
+            var y = parseInt(document.getElementById('txt2').value);
+
+            var result;
+
+
+            switch (operator) {
+                case '+':
+                    result = x + y;
+                    break;
+                case '-':
+                    result = x - y;
+                    break;
+                case '*':
+                    result = x * y;
+                    break;
+                case '/':
+                    if (y == 0) {
+                        result = "Kan ikke dividere med 0"
+                    } else
+                        result = x / y;
+                    break;
+            }
+
+            // if (operator == "+") {
+            //     result = x + y;
+            // } else if (operator == "-") {
+            //     result = x - y;
+            // } else if (operator == "*") {
+            //     result = x * y;
+            // } else if (operator == "/") {
+            //     result = x / y;
+            // }
+
+            document.getElementById('result').value = result;
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+
+<input type="text" id="txt1">
+
+<button onclick="operation('+')">+</button>
+<button onclick="operation('-')">-</button>
+<button onclick=operation('*')>*</button>
+<button onclick="operation('/')">/</button>
+
+<input type="text" id="txt2">
+<p>Resultatet er: </p>
+<input type="text" id="result">
+
+</body>
+</html>

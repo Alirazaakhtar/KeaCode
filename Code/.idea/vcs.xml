@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/1.semester/ManangementApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/FastensRegler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/FastensRegler/spring-html-dao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/StudentAdminDem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/StudentAdministrationHSM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/StudentAdministrationHSM/student-administration-system1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/companyweb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/grocecy1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/motorhome" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/motorhome/motorhome-nordic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/spring-bmi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/spring-html-css-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/AllSpring/th-exercies" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/JDBC_Database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/JDBC_Database/DatabaseConnectionManagerGit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/JDBC_Database/JDBC-3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/ProjekterKEA/BannehaveRoskilde" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/ProjekterKEA/Roskilde_Bornehave_IT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/ØvelserJava/fristJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/2.semester/Konstruktion/ØvelserJava/opgave1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/3.semester/Opgaver14-09-20" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/3.semester/Projekter/XP_Project/XP_Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/Clima-Flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/bitcoin-flutter-gold-solution" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/bitcoin-flutter-gold-start" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/bitcoin-ticker-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/bmi-calculator-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/destini-challenge-starting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/dicee-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/magic-8-ball-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/mi_card_flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/quizzler-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/AndriodStudio/xylophone-flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programmering/TechWajid/TechLectioner" vcs="Git" />
+  </component>
+</project>

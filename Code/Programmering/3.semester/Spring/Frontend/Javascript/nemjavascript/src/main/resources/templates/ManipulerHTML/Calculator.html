@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+
+    <script>
+
+        function calculate(operator) {
+            var x = parseInt(document.getElementById('num1').value);
+            var y = parseInt(document.getElementById('num2').value);
+
+            var result;
+
+            switch (operator) {
+                case '+':
+                    result = x + y;
+                    break;
+                case '-':
+                    result = x - y;
+                    break;
+                case '*':
+                    result = x * y;
+                    break;
+                case '/':
+                    result = x / y;
+                    break;
+            }
+
+            document.getElementById('p').innerText = result;
+            alert(typeof(result));
+        }
+    </script>
+</head>
+<body>
+
+
+<input type="number" id="num1" required>
+<br>
+<input type="number" id="num2" required>
+<br>
+<button onclick="calculate('+')">+</button>
+<button onclick="calculate('-')">-</button>
+<button onclick="calculate('*')">*</button>
+<button onclick="calculate('/')">/</button>
+
+<div>
+    <h1>Result: </h1>
+    <b><p id="p"></p></b>
+</div>
+
+
+</body>
+</html>

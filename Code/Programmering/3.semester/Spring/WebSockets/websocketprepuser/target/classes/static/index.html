@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Chat WebSocket</title>
+
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+</head>
+
+<body onload="disconnect()">
+
+<div>
+    <div>
+        <button id="connect">Connect</button>
+        <button id="disconnect" disabled="disabled">Disconnect</button>
+    </div>
+    <br />
+    <div>Username:
+        <input type="text" id="from" value="Anna"/>
+    </div>
+
+    <div>
+        <button id="register">Register user</button>
+    </div>
+    <div>
+        <button id="subscribe">Subscribe</button>
+    </div>
+    <br />
+    <div id="greetings"></div>
+    <div id="conversationDiv">
+        <input type="text" id="text" value="Hi there"/>
+        <button id="sendMessage">Send</button>
+        <p id="response"></p>
+    </div>
+</div>
+<script type="text/javascript">
+    var socket = null;
+    var stompClient = null;
+    var from = "anonymous user";
+
+    function setConnected(connected) {
+        $("#connect").prop("disabled", connected);
+        $("#disconnect").prop("disabled", !connected);
+        $("#register").prop("disabled", !connected);
+        if (connected) {
+            $("#conversation").show();
+        }
+        else {
+            $("#conversation").hide();
+        }
+        $("#greetings").html("");  // clears the greetings
+    }
+
+    function connect() {
+        socket = new SockJS('/my-endpoint'); // was gs-guide-websocket
+        stompClient = Stomp.over(socket);
+        stompClient.connect({}, function (frame) {
+            setConnected(true);
+            from = $("#from").val();
+            console.log('Connected: ' + frame);
+        });
+    }
+
+    function subscribe(){
+        from = $("#from").val();
+        stompClient.subscribe('/user/' + from + '/msg', function (greeting) {
+            console.log("subscribed " + JSON.parse(greeting.body).content)
+            showGreeting(JSON.parse(greeting.body).content);
+        });
+    }
+
+    function register(){
+        console.log("register() kaldet fra: " + $("#from").val())
+        stompClient.send('/app/register',{} ,$("#from").val()) // her bruger vi ikke resultatet
+    }
+
+
+    function sendMessage() {
+        stompClient.send("/app/hello", {},JSON.stringify({
+            toWhom: 'Alle', // kan sættes til en privat person
+            fromWho: from,
+            message: $("#text").val()
+        }));
+    }
+
+    function showGreeting(message) {
+        $("#greetings").append("<p>" + message + "</p>");
+    }
+
+    $(function () {
+        $("form").on('submit', function (e) {
+            e.preventDefault();
+        });
+        $( "#connect" ).click(function() { connect(); });
+        $( "#register" ).click(function() { register(); });
+        $( "#subscribe" ).click(function() { subscribe(); });
+        $( "#disconnect" ).click(function() { disconnect(); });
+        $( "#sendMessage" ).click(function() { sendMessage(); });
+    });
+
+
+    function disconnect() {
+        if (stompClient !== null) {
+            stompClient.disconnect();
+        }
+        setConnected(false);
+        console.log("Disconnected");
+    }
+
+</script>
+</body>
+</html>
