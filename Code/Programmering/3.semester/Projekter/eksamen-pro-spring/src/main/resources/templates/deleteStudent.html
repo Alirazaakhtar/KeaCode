@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>All Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link th:href="@{styles.css}" rel="stylesheet"/>
+    <link rel="stylesheet" href="../static/styles.css">
+
+    <script type="text/javascript" rel="script" th:src="@{main.js}"></script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <style>
+        label{
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Create Student</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/allStudents" class="nav-link">See Student List</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/delete" class="nav-link">Update & Delete</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+
+
+<section class="hero" style="" id="hero">
+    <div class="container ">
+
+        <div class="trans">
+
+            <h1 class="headline">Delete Students</h1>
+            <div class="headline-description">
+                <div class="separation">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+
+                <div class="single-animation">
+
+                    <div>
+                        <a href="/delete" class="btn cta-btn">Update List</a>
+                    </div>
+
+                    <br>
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th></th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr style="color: white">
+
+
+                            <form id="deleteform">
+                                <td>
+                                    <select id="delete_id" class="form-control">
+                                        <option th:each="student : ${list}" th:value="${student.id}" th:text="${student.name}"></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </td>
+
+                                <div>
+                                    <p id="o" style="color: white"></p>
+                                </div>
+
+                            </form>
+
+
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="trans">
+
+            <h1 class="headline">Update Students</h1>
+            <div class="headline-description">
+                <div class="separation">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+
+
+                <div class="single-animation">
+
+
+                    <br>
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Supervisor</th>
+                            <th></th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr style="color: white">
+
+
+                            <form id="updateform">
+                                <td>
+                                    <select id="update_id" class="form-control">
+                                        <option th:each="student : ${list}" th:value="${student.id}" th:text="${student.id + ' : ' + student.name}"></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" id="update_name" placeholder="Change your name here..." class="form-control">
+                                </td>
+                                <td>
+                                    <input type="text" id="update_email" placeholder="Change your email here..." class="form-control">
+                                </td>
+                                <td>
+                                    <select id="update_supervisor" class="form-control">
+                                        <option th:each="super : ${superlist}" th:value="${super.id}" th:text="${super.name}"></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button type="submit" class="btn btn-success">Update</button>
+                                </td>
+
+                                <div>
+                                    <p id="u" style="color: white"></p>
+                                </div>
+
+                            </form>
+
+
+
+
+
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<script>
+    preventDelete($("#deleteform"));
+    preventUpdate($("#updateform"));
+</script>
+
+</body>
+</html>
+

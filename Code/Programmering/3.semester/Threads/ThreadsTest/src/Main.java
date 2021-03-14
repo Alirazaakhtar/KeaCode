@@ -5,8 +5,8 @@ public class Main {
         Slide slide = new Slide();
         Consumer consumer = new Consumer(slide);
         Producer producer = new Producer(slide);
-        Thread consumerThread = new Thread(consumer, "Ali");
-        Thread producerThread = new Thread(producer);
+        Thread consumerThread = new Thread(consumer, "1");
+        Thread producerThread = new Thread(producer, "2");
         consumerThread.start();
         producerThread.start();
 

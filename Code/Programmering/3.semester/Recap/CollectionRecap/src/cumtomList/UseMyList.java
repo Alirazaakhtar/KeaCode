@@ -12,6 +12,7 @@ public class UseMyList {
         MyList<Integer> list = new MyList<>();
 
         MyList<String> myList = new MyList<>();
+
         myList.add("Charlie");
         myList.add("A");
         myList.add("B");

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1e6cae3-6e3b-4660-80fa-74f67011a32e" name="Default Changelist" comment="" />
+    <list default="true" id="f1e6cae3-6e3b-4660-80fa-74f67011a32e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/AOEksamen/aoeksamenprojekt/src/main/resources/static/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/AOEksamen/aoeksamenprojekt/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/websocket123/src/main/java/com/webraza/websocket123/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/websocket123/src/main/java/com/webraza/websocket123/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/websocket123/src/main/java/com/webraza/websocket123/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/websocket123/src/main/java/com/webraza/websocket123/model/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projekter/websocket123/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -72,6 +81,8 @@
       <workItem from="1604360354611" duration="70000" />
       <workItem from="1604360535524" duration="58000" />
       <workItem from="1605718405663" duration="623000" />
+      <workItem from="1607947819925" duration="12000" />
+      <workItem from="1608032456969" duration="28000" />
     </task>
     <servers />
   </component>

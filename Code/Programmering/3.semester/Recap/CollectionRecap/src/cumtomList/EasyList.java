@@ -9,4 +9,17 @@ public class EasyList<T> extends ArrayList {
         return size() > 10;
     }
 
+
+    public boolean isThereLessThenFive(){
+
+        if(size() < 5){
+
+            return true;
+        }
+
+        return false;
+    }
+
+
+
 }

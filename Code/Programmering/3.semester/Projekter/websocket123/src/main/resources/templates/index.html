@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+</head>
+<body>
+
+<button onclick="connect()">Connect</button>
+
+<script>
+    var stompClient = null // måde at sende beskeder en efter en, hvor de bliver bevaret
+    //let kan man ikke bruge uden for {}
+    function connect() {
+        let socket =new SockJS("myEndpoint");
+        stompClient = Stomp.over(socket);
+
+        stompClient.connect({}, function (frame) {
+            stompClient.subscribe("/topic/messages", function (res) {
+                if ("server siger: " + res);
+
+            });
+            i("Connection successful")
+        })
+    i("connect er trykket");
+    }
+
+    function i(txt) {
+    console.log(txt);
+    }
+
+    function sayHI() {stompClient.send("/myMessage", {})
+    }
+</script>
+
+</body>
+</html>

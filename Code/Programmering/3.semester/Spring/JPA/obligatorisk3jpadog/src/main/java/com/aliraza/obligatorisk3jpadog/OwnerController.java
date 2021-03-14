@@ -37,6 +37,7 @@ public class OwnerController {
 
         ownerServiceJPA.owners = ownerServiceJPA.findAll();
 
+        ownerServi
 
         return ResponseEntity.ok(ownerServiceJPA);
     }

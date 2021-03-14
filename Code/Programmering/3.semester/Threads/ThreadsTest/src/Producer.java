@@ -8,7 +8,7 @@ public class Producer implements Runnable {
     }
 
     @Override
-    public void run() {
+    public void run(){
 
         while (counter < 10) {
 

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>All Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link th:href="@{styles.css}" rel="stylesheet"/>
+    <link rel="stylesheet" href="../static/styles.css">
+
+    <script type="text/javascript" rel="script" th:src="@{main.js}"></script>
+
+    <script>
+        getAllStudents();
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <style>
+        label{
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Create Student</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/allStudents" class="nav-link">See Student List</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/delete" class="nav-link">Update & Delete</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+
+
+<section class="hero" style="" id="hero">
+    <div class="container ">
+
+        <div class="trans">
+
+            <h1 class="headline">Students</h1>
+            <div class="headline-description">
+                <div class="separation">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+
+                <div class="single-animation">
+
+                    <div>
+                        <a onclick="getAllStudents()" class="btn cta-btn">Get All Students</a>
+                    </div>
+
+                    <br>
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Supervisor</th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr id="row" style="color: white">
+
+
+                            <td id="tableName"></td>
+                            <td id="tableEmail"></td>
+                            <td id="tableSupervisor"></td>
+
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+

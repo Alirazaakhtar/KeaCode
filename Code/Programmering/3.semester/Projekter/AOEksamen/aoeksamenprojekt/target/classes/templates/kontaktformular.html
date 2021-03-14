@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Kontaktformular</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vikar rekruttering">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Easyjob">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+<!--        <link th:href="@{styles.css}" rel="stylesheet"/>-->
+<!--    <link rel="stylesheet" href="css/styles.css">-->
+
+    <link th:href="@{kontaktform.css}" rel="stylesheet"/>
+    <link rel="stylesheet" href="../static/kontaktform.css">
+
+
+
+    <script
+            src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"
+    ></script>
+
+
+
+</head>
+<body>
+
+<!--<header>-->
+
+<!--    <div class="container-web">-->
+<!--        <nav class="nav-web">-->
+<!--            <div class="menu-toggle">-->
+<!--                <i class="fas fa-bars"></i>-->
+<!--                <i class="fas fa-times"></i>-->
+<!--            </div>-->
+<!--            <a href="/" class="logo"><img th:src="@{https://www.easyjobvikar.dk/wp-content/uploads/2018/02/easyjob.png}" alt="logo"></a>-->
+<!--            <ul class="nav-list-web">-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="/" class="nav-link-web active">Home</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="#" class="nav-link-web">Virksomhed</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="/opretbestilling" class="nav-link-web">Book en vikar</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="/stillinger" class="nav-link-web">Ledige Stillinger</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="#" class="nav-link-web">Om Os</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="/kontakt" class="nav-link-web">Kontakt</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item-web">-->
+<!--                    <a href="/admin" class="nav-link-web">Login</a>-->
+<!--                </li>-->
+
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+
+
+<!--</header>-->
+
+
+<div class="container" >
+    <span class="big-circle"></span>
+    <img src="../static/img/shape.png" class="square" alt="" />
+    <div class="form">
+        <div class="contact-info">
+            <h3 class="title">Lad os komme i kontakt</h3>
+            <p class="text">
+                KONTAKT OS ALLEREDE I DAG FOR MEGET MERE INFORMATION OM DE SERVICES, VI TILBYDER HOS EASYJOB.
+            </p>
+
+            <div class="info">
+                <div class="information">
+                    <img th:src="@{/img/location.png}" class="icon" alt="" />
+                    <p>Produktionsvej 1
+                        </p>
+                    <p>
+                        2600 Glostrup
+                    </p>
+                </div>
+                <div class="information">
+                    <img th:src="@{/img/email.png}" class="icon" alt="" />
+                    <p>info@easyjobvikar.dk</p>
+                </div>
+                <div class="information">
+                    <img th:src="@{/img/phone.png}" class="icon" alt="" />
+                    <p>71 74 75 70</p>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <p>Find os her :</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/EasyjobRekruttering">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="https://formspree.io/f/xleowzrj" method="post">
+                <h3 class="title">Kontakt os</h3>
+                <div class="input-container">
+                    <input placeholder="Navn" type="text" name="name" class="input" />
+
+                </div>
+                <div class="input-container">
+                    <input placeholder="Email" type="email" name="email" class="input" />
+
+                </div>
+                <div class="input-container">
+                    <input placeholder="Telefon" type="tel" name="phone" class="input" />
+
+                </div>
+                <div class="input-container textarea">
+                    <textarea placeholder="Besked" name="message" class="input"></textarea>
+
+                </div>
+                <input type="submit" value="Send" class="btn" />
+                <a href="/" class="btn" style="text-decoration: none">Tilbage</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<script type="text/javascript" rel="script" th:src="@{main.js}"></script>
+
+</body>
+</html>
+

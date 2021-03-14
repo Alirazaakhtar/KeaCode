@@ -9,9 +9,13 @@ public class ListDemo {
 
         LinkedList<String> linkedList = new LinkedList<>();
         linkedList.add("Bent");
+        linkedList.add("Bent");
+
 
         ArrayList<String> list = new ArrayList<>();
         list.add("Anna");
+        list.add("Anna");
+
 
         printList(list);
         printList(linkedList);

@@ -3,7 +3,7 @@ public class Car implements Runnable {
     private int distance = 0;
     private String name = "empty";
 
-    public Car(String name) {
+    public Car (String name) {
         this.name = name;
     }
 

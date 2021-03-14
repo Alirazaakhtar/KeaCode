@@ -23,6 +23,12 @@ public class MyList<T> {
         return true;
     }
 
+    public boolean add1(T element){
+
+        lis
+        return true;
+    }
+
     public T get(int index) {
         if (index > -1 && index < cursor) {
             return list[index];
@@ -103,5 +109,7 @@ public class MyList<T> {
                 ", cursor=" + cursor +
                 '}';
     }
+
+
 }
 
